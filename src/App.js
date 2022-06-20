@@ -8,7 +8,26 @@ function App() {
       <Menubar/>
 
 
-      <div>Main section</div>
+      <div>Main se
+    
+    s
+    
+    s
+    s
+    
+    
+    
+    
+    
+    
+    
+    sss
+    s
+    
+    s
+    
+    s
+    ction</div>
     </div>
   );
 }

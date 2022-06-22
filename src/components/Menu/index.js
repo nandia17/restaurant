@@ -1,11 +1,10 @@
 import React from "react";
+import css from "./style.module.css"
 
 function Menubar() {
     return ( 
-    <div className="nav">
-    <div className="na">
-  
-    </div>
+    <div className={css.nav}>
+    lorem
         
     </div>
     );

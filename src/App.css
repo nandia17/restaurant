@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
 .App {
   text-align: center;
+  background-image: url(https://images.pexels.com/photos/299348/pexels-photo-299348.jpeg?cs=srgb&dl=pexels-terje-sollie-299348.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .App-logo {
@@ -35,4 +52,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.na {
+  width: 700px;
+  list-style: none;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.na a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 100px;
+  background:rgba(0,0,0,0.3);
+}
+.App div .num {
+color: white; 
+}
+.Res-text {
+  font-size: 110px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.Res-text h3 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: normal;
+}
+.our {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.our h1 {
+  
+  text-transform: uppercase;
+}
+.zuraas {
+  height: 3px;
+  background: red;
+  width: 70px;
 }

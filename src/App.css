@@ -110,3 +110,36 @@ color: white;
   background: red;
   width: 70px;
 }
+.hool-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bo {
+  margin: 2px;
+  width: 20%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bo img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.bo p {
+  font-size: 16px;
+}
+.bo h3 {
+  font-size: 23px;
+}
+

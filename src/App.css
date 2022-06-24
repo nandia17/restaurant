@@ -110,6 +110,11 @@ color: white;
   background: red;
   width: 70px;
 }
+.zuraasa {
+  height: 3px;
+  background:red;
+  width: 50px;
+}
 .hool-box {
   width: 100%;
   display: flex;
@@ -143,3 +148,220 @@ color: white;
   font-size: 23px;
 }
 
+
+.story-box {
+  display: flex;
+  flex-direction: row;
+}
+.sto-img  {
+  width: 100%;
+
+}
+.sto-text  {
+  background-color: rgb(240, 236, 236);
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.story h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: start;
+  text-transform: uppercase;
+}
+.story p {
+  text-align: left;
+}
+.sto-img img{
+width: 100%;
+}
+.bbb {
+  width: 50%;
+ 
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+ 
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+
+.une-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+.box-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.type h3 {
+  
+  margin-top: 50px;
+  margin-bottom:20px;
+  font-size: 35px;
+  font-weight: normal;
+}
+.box-2 {
+  margin-bottom: 20px;
+}
+.box-2 .orts p {
+  text-align: left;
+}
+.bbb .zuraasa {
+  display:none;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+.zur {
+  
+  width: 100%;
+}
+.zurag {
+  display: flex;
+  width: 100%;
+  
+}
+.zurag img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 300px;
+}
+.st {
+  width: 60%;
+}
+
+
+.chef {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.che {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.chef-zurag {
+  width: 100%;
+}
+.chef-text {
+  width: 100%;
+ 
+  /* align-items: center; */
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  /* padding: 200px; */
+  flex-direction: column;
+  
+
+}
+.ou {
+  display: flex;
+  flex-direction: column;
+ 
+ text-align: left;
+  /* align-items: center; */
+  padding-left:100px ;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.chef-text .ner {
+
+  padding-right: 100px;
+  padding-right: 100px;
+}
+.chef-text h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: normal;
+  
+}
+
+.chef-text .orts {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.chef-zurag img {
+  width: 80%;
+  height: 350px;
+  object-fit: cover;
+  object-position:0 10%;
+}
+
+.footer {
+width: 100%;
+  background: grey;
+  display: flex;
+  justify-content: center;
+}
+.foot {
+  width: 70%;
+  background: white;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ff {
+  display: flex;
+  flex-direction: row;
+width: 100%;
+  line-height: 30px;
+  justify-content: space-evenly;
+}
+
+.f-cont {
+  margin-top: 50px;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center !important;
+  background: red;
+}
+.f-cont .ou {
+  width: 100%;
+  padding-left: 0;
+  background: green;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-cont .ou .ner {
+  width: 100%;
+  text-align: center;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
